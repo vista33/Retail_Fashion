@@ -2,6 +2,6 @@
   "username": "your_username",
   "password": "your_password",
   "host": "your_local_host",
-  "port": your_port,
+  "port": "your_port",
   "database": "your_database"
 }
