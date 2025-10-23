@@ -1,4 +1,4 @@
-# 🏀 Fashion Retail Sales Analytics — Business Intelligence Case Study  
+# Fashion Retail Sales Analytics — Business Intelligence Case Study  
 
 ### 📊 Project Overview
 This project analyzes Fashion Retail product sales data to uncover actionable business insights.  
