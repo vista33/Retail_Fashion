@@ -11,7 +11,7 @@ group by
 order by 
 	revenue desc,
 	total_sold desc;
--- file:///C:/Users/user/AppData/Local/Temp/.dbeaver-temp16795458277235134277/data-files/20251022-195322.html
+
 
 --2. How does gender affect product preference (Men, Women, Unisex)?
 select 
@@ -24,7 +24,7 @@ group by
 	gender, product_type 
 order by
 	gender, total_sold desc;
--- file:///C:/Users/user/AppData/Local/Temp/.dbeaver-temp16795458277235134277/data-files/20251022-200058.html
+
 
 --3. Which categories (Limited Edition, Casual, Streetwear, Sportswear) are most popular in each region?
 with rank_category as (
@@ -48,7 +48,7 @@ where
 	rank_category_country = 1
 order by
 	total_sold desc;
--- file:///C:/Users/user/AppData/Local/Temp/.dbeaver-temp16795458277235134277/data-files/20251022-200703.html
+
 
 --4. Are certain brands more popular among men or women?
 with men_preference as(
@@ -86,7 +86,6 @@ left join
 	women_preference w
 using (brand);
 
--- file:///C:/Users/user/AppData/Local/Temp/.dbeaver-temp16795458277235134277/data-files/20251022-202253.html
 
 --5. Which payment modes are most frequently used by customers?
 select
@@ -99,6 +98,6 @@ group by
 order by 
 	total_transaction desc
 limit 1;
--- file:///C:/Users/user/AppData/Local/Temp/.dbeaver-temp16795458277235134277/data-files/20251022-202744.html
+
 
 

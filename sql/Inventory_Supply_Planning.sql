@@ -10,7 +10,7 @@ group by
 order by
 	total_sold desc
 limit 3;
--- file:///C:/Users/user/AppData/Local/Temp/.dbeaver-temp16795458277235134277/data-files/20251022-203530.html
+
 
 --2. Are there products with low sales that could be discounted or removed from inventory? (based on revenue)
 select
@@ -23,7 +23,7 @@ group by
 order by
 	total_revenue
 limit 3;
--- file:///C:/Users/user/AppData/Local/Temp/.dbeaver-temp16795458277235134277/data-files/20251022-203942.html
+
 
 --3. How does seasonality affect product sales (e.g., monthly or quarterly trends)?
 with monthly_trend as (
@@ -53,7 +53,7 @@ group by
 	year,
 	quarter,
 	monthly_revenue;
--- file:///C:/Users/user/AppData/Local/Temp/.dbeaver-temp16795458277235134277/data-files/20251022-210201.html
+
 
 --4. Which combinations of product type, brand, and country show consistent high demand?
 select
@@ -69,7 +69,7 @@ group by
 	country 
 order by 
 	total_revenue desc;
--- file:///C:/Users/user/AppData/Local/Temp/.dbeaver-temp16795458277235134277/data-files/20251022-210820.html
+
 	
 	
 
