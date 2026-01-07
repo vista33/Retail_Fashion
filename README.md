@@ -3,6 +3,7 @@
 ### 📊 Project Overview
 This project analyzes Fashion Retail product sales data to uncover actionable business insights.  
 The goal is to transform raw sales data into clear, data-driven recommendations that support marketing, inventory, and product strategy decisions.
+For the result and analysis, it can be seen in the ppt file.
 
 ---
 
